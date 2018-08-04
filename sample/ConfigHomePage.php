@@ -23,6 +23,7 @@
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
 **/
+
 $home_page = array(
 	'home_1' => array(
 		'themes_color'	=> '#e5aa88',
