@@ -1,0 +1,105 @@
+
+.owl-theme {
+	// Styling Next and Prev buttons
+	position: relative;
+	.owl-nav {
+		text-align: center;
+		-webkit-tap-highlight-color: transparent;
+		@include opacity(0);
+		@include transition(opacity 0.5s ease 0.2s);
+		[class*='owl-'] {
+			color: #fff;
+			font-size: 1.6rem;
+			background: #b2b2b2;
+			display: inline-block;
+			cursor: pointer;
+			@include border-radius(50%);
+			position: absolute;
+			top: 50%;
+			margin-top: -20px;
+			@include square(40px);
+			line-height: 40px;
+			text-align: center;
+			&:hover {
+				background: $theme-color-default;
+				color:#fff;
+				text-decoration: none;
+			}
+			.fa{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				@include translate(-50%, -50%);
+			}
+		}
+		.owl-prev {
+			left: -20px;
+		}
+		.owl-next {
+			right: -20px;
+		}
+		.disabled {
+			opacity: $nav-disabled-opacity;
+			cursor: default;
+		}
+	}
+
+	&:hover {
+		.owl-nav {
+			@include opacity(1);
+		}
+	}
+
+	// Styling dots
+	.owl-nav.disabled + .owl-dots {
+		margin-top: 0;
+	}
+	.owl-dots {
+	  top: 0;
+	  display: inline-block;
+	  position: absolute;
+	  z-index: 99;
+	  @include rtl-left(0);
+	  @include rtl-text-align-right();
+	  margin: 0;
+	  .owl-dot {
+		display: inline-block;
+		zoom: 1;
+		*display: inline;
+		span {
+			background-color: transparent;
+			cursor: pointer;
+			display: inline-block;
+			height: 16px;
+			width: 16px;
+			margin: 2px;
+			padding: 0;
+			position: relative;
+			text-indent: -9999px;
+			border-radius: 50%;
+			&:before {
+				@include transition(all 0.3s ease-in 0.1s);
+				content: "";
+				position: absolute;
+				height: 12px;
+				width: 12px;
+				border-radius: 50%;
+				background: #8f8f8d;
+				left: 50%;
+				top: 50%;
+				@include translate(-50%, -50%);
+			}
+		}
+	    &:hover, &.active {
+	    	span {
+				&:before {
+					background: $theme-color-default;
+					height: 16px;
+					width: 16px;
+				}
+	    	}
+	    }
+	  	
+	  }
+	}
+}

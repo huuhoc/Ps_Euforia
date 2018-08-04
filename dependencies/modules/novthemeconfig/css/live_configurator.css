@@ -1,0 +1,164 @@
+/*
+* 2007-2014 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2014 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+#gear-right {
+	background: #fff;
+	display: block;
+	height: 50px;
+	left: 0px;
+	position: fixed;
+	top: 150px;
+	width: 50px;
+	z-index: 10000;
+	cursor: pointer;
+}
+#gear-right .fa {
+	background: none repeat scroll 0 0 #FFFFFF;
+	cursor: pointer;
+	height: 50px;
+	opacity: 1;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	z-index: 10000;
+	color: #333;
+	line-height: 48px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid #ddd;
+	border-left: 0px;
+}
+#tool_customization {
+	position: fixed;
+	left: -305px;
+	top: 80px;
+	z-index: 9999; 
+	height: auto;
+	width: 300px;
+	background: #fff;
+	-webkit-box-shadow: 3px 0 3px #cccccc;
+	-moz-box-shadow: 3px 0 3px #cccccc;
+	box-shadow: 3px 0 3px #cccccc;
+	padding: 15px;
+
+}
+#tool_customization .header-theme {
+	color: #333;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+#tool_customization p{
+	padding: 15px;
+	font-size: 13px;
+}
+#tool_customization p span{
+	color: #8d8c8c;
+	font-size: 11px;
+}
+
+#tool_customization .nov-background{
+	display: block;
+}
+#tool_customization .nov-background > *{
+	border: 1px solid #ddd;
+    height: 30px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 30px;
+}
+
+#tool_customization .list-tools p{
+	font-size: 1em;
+	text-transform: uppercase;
+}
+#tool_customization .list-tools i{
+	font-size: 1.4em;
+	position: relative;
+	top: -4px;
+}
+#tool_customization .list-tools  select {
+	width: 100%;
+	height: 25px;
+}
+
+#tool_customization .btn-tools{
+	text-align: center;
+	margin-top: 20px;
+}
+#tool_customization .btn {
+	padding: 6px 15px;
+	display: inline-block;
+	overflow: hidden;
+	margin: 5px;
+	border: 1px solid #ddd;
+	font-weight: bold;
+}
+@media(max-width: 1367px) {
+	#layouts {
+		padding: 15px;
+		max-height: 400px;
+		overflow-y: auto;
+	}
+}
+@media(max-width: 920px) {
+	#layouts {
+		padding: 15px;
+		max-height: 250px;
+		overflow-y: auto;
+	}
+}
+.nov-background  .active ,
+.nov-background div:hover {
+	cursor: pointer;
+	border-color: red !important;
+}
+
+.tab-paneltool .nav-tabs li {
+  border: 1px solid #e2e2e2;
+  margin-right: 5px;
+  margin-bottom: -1px;
+  position: relative;
+  padding-bottom: 0;
+}
+.tab-paneltool .nav-tabs li.active {
+  border-bottom-color: #fff;
+}
+
+.tab-paneltool .nav-tabs li a {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+.tab-paneltool .tab-content {
+  border: 1px solid #e2e2e2;
+}
+.tab-paneltool .tab-content .desc {
+	font-size: 9px;
+	font-style: italic;
+}
+#tool_customization .tab-pane{
+	padding:15px !important;
+}

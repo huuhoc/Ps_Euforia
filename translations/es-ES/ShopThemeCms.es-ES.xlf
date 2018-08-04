@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/stores.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="34c869c542dee932ef8cd96d2f91cae6">
+        <source>Our stores</source>
+        <target>Our stores</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/stores.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="adc4f9f9cccaa450c10977d50da58d8d">
+        <source>About and Contact</source>
+        <target>About and Contact</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/stores.tpl:44</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/category.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="6c5c05a5b907385c60c3baa4087ea1a1">
+        <source>List of sub categories in %name%:</source>
+        <target>List of sub categories in %name%:</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/category.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="51af726259b3283f6b53613165f95697">
+        <source>List of pages in %name%:</source>
+        <target>List of pages in %name%:</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/category.tpl:45</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/sitemap.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Sitemap</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/cms/sitemap.tpl:28</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/layouts/layout-both-columns.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="8cf04a9734132302f96da8e113e80ce5">
+        <source>Home</source>
+        <target>Home</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/layouts/layout-both-columns.tpl:269</note>
+      </trans-unit>
+      <trans-unit id="13348442cc6a27032d2b4aa28b75a5d3">
+        <source>Search</source>
+        <target>Search</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/layouts/layout-both-columns.tpl:270</note>
+      </trans-unit>
+      <trans-unit id="641254d77e7a473aa5910574f3f9453c">
+        <source>Wishlist</source>
+        <target>Wishlist</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/layouts/layout-both-columns.tpl:272</note>
+      </trans-unit>
+      <trans-unit id="08bd40c7543007ad06e4fce31618f6ec">
+        <source>Account</source>
+        <target>Account</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/layouts/layout-both-columns.tpl:273</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

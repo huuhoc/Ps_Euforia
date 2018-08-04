@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl" source-language="tr-TR" target-language="tr-TR" datatype="plaintext">
+    <body>
+      <trans-unit id="bea8d9e6a0d57c4a264756b4f9822ed9">
+        <source>My Account</source>
+        <target>My Account</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="2cbfb6731610056e1d0aaacde07096c1">
+        <source>View my customer account</source>
+        <target>View my customer account</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="c87aacf5673fada1108c9f809d354311">
+        <source>Sign out</source>
+        <target>Sign out</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="b6d4223e60986fa4c9af77ee5f7149c5">
+        <source>Sign in</source>
+        <target>Sign in</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:37</note>
+      </trans-unit>
+      <trans-unit id="089a4481d6029b62758f16d31cd34264">
+        <source>Register Account</source>
+        <target>Register Account</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="6ff063fbc860a79759a7369ac32cee22">
+        <source>Checkout</source>
+        <target>Checkout</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:44</note>
+      </trans-unit>
+      <trans-unit id="4b877ba8588b19f1b278510bf2b57ebb">
+        <source>Log me out</source>
+        <target>Log me out</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="d4151a9a3959bdd43690735737034f27">
+        <source>Log in to your customer account</source>
+        <target>Log in to your customer account</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customersignin/ps_customersignin.tpl:37</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl" source-language="tr-TR" target-language="tr-TR" datatype="plaintext">
+    <body>
+      <trans-unit id="037eeebf494cfb39f94eef0dd5655852">
+        <source>My Wishlists</source>
+        <target>My Wishlists</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl:56</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

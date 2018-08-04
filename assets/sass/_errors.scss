@@ -1,0 +1,62 @@
+#pagenotfound {
+  height: 100vh;
+  font-family: $font-family-default;
+  color: #797979;
+  @include media-breakpoint-up(sm) {
+      overflow: hidden;
+  }
+  .page-not-found {
+    font-size: 1.4rem;
+    height: 100vh;
+    .logo {
+      margin-bottom: 6rem;
+    }
+    .image {
+      margin-bottom: 5.5rem;
+    }
+    .h4 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #2d2d2d;
+      font-family: $font-family-default;
+    }
+    .info {
+      margin-top: 22px;
+      margin-bottom: 36px;
+      p {
+        max-width: 390px;
+        margin: 0 auto;
+      }
+    }
+    .btn {
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 1.2rem;
+      font-family: $font-family-default;
+      font-weight: 700;
+      padding: 7px 15px;
+      i {
+        @include square(28px);
+        @include rtl-margin-right(10px);
+        background: url(../img/icon/icon-home.png);
+        vertical-align: middle;
+      }
+    }
+  }
+  @include media-breakpoint-down(sm) {
+    .page-not-found {
+      font-size: 1.4rem;
+      .logo {
+        margin-bottom: 3rem;
+      }
+      .image {
+        margin-bottom: 2.5rem;
+      }
+      .h4 {
+        font-size: 1.6rem;
+        color: #2d2d2d;
+      }
+    }
+  }
+}

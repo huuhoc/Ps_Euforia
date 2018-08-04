@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/_partials/footer.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="e8a7a86d3401c82c931268f4bca7afb4">
+        <source>Copyright %copyright% %year% - Vinovathemes. All rights reserved.</source>
+        <target>Copyright %copyright% %year% - Vinovathemes. All rights reserved.</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/_partials/footer.tpl:43</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

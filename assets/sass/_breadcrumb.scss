@@ -1,0 +1,66 @@
+// BREADCRUMB
+.breadcrumb {
+  background: url(../img/bg-breadcrumb.jpg) no-repeat scroll 0 0;
+  color: $breadcrumb-text-color;
+  font-family: $font-family-default;
+  font-size: 1.6rem;
+  padding: 20px 0;
+  //border-top: 1px solid #fff;
+  margin-bottom: 3rem;
+  @include border-radius(0);
+  .breadcrumb-title-page {
+    font-size: 2.6rem;
+    font-family: $font-family-primary;
+    font-weight: 700;
+    color: $theme-color-default;
+    text-align: center;
+    margin-bottom: 1.9rem;
+  }
+  ol {
+    text-align: center;
+    @include rtl-padding-left(0);
+    li {
+      padding: 0 15px;
+      position: relative;
+      display: inline-block;
+      color: $breadcrumb-link-color;
+      a {
+        font-size: 1.6rem;
+        color: #666;
+        &:hover {
+          color: $theme-color-default;
+        }
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        @include rtl-left(-2px);
+        top: 50%;
+        font-size: 1.6rem;
+        width: 4px;
+        height: 4px;
+        background: #666;
+        @include rotate(45deg);
+        line-height: 1.6rem;
+      }
+      &:first-child {
+        @include rtl-padding-left(0);
+         &:before {
+          display: none;
+         }
+      }
+      &:last-child {
+        @include rtl-padding-right(0);
+      }
+    }
+  }
+}
+#contact, #cms {
+  .breadcrumb {
+    background: url(../img/bg-breadcrumb-cartview.jpg) no-repeat scroll 0 0;
+    .breadcrumb-title-page {
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}

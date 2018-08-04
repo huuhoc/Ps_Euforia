@@ -1,0 +1,281 @@
+#content.bootstrap .panel {
+    padding: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+#content.bootstrap .panel .panel-heading {
+    height: auto;
+    border-bottom: none;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+}
+#content.bootstrap .panel .panel-heading .module-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 15px;
+    padding-right: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    border-right: 1px solid #9ab0b5;
+}
+#content.bootstrap .panel .panel-heading .description {
+    font-size: 11px;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: middle;
+}
+#content.bootstrap .panel .panel-heading img {width: 80px; height: auto;}
+
+
+#content.bootstrap .panel .panel {
+    padding: 15px 25px 0;
+    margin-bottom: 30px;
+    border: 1px dashed #999999;
+    background: #ecf4f6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#content.bootstrap .panel .panel h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 35px;
+}
+.nov-panel-2 .form-group {
+    margin: 0;
+}
+.nov-panel-2 .btn-group .btn {
+    padding: 8px 12px;
+}
+.nov-panel-2 .novpagemanage { position: relative; display: block; margin: 0; padding: 0; list-style: none; font-size: 12px; line-height: 20px; margin-top: 5px;}
+
+.nov-panel-2 .novpagemanage-list { 
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+    position: relative;
+	min-height: 15px;
+}
+.nov-panel-2 .novpagemanage-list > [class^="col-"],
+.nov-panel-2 .novpagemanage-list > [class*=" col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.novpagemanage-item.col-md-cus-5 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 20%;
+}
+
+.novpagemanage-item,
+.novpagemanage-empty,
+.novpagemanage-placeholder { 
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    min-height: 20px;
+    padding: 0;
+    position: relative;
+    border-radius: 3px;
+}
+.novpagemanage-content {
+    background: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 12px;
+    display: block;
+    font-weight: 700;
+    border-radius: 3px 3px 3px 3px;
+    padding: 11px 0 11px 59px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px #eaeaea;
+}
+.novpagemanage-content::before{
+    content: "";
+    display: block !important;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 59px;
+    background: #e2ecef;
+    top: 0;
+}
+
+
+.novpagemanage-content .group-config {
+   position: absolute;
+   bottom: 100%;
+   right: 15px;
+   display: none;
+}
+
+.novpagemanage-content .group-config > div {
+    display: inline-block;
+}
+.novpagemanage-content .group-config a {
+    display: inline-block;
+    background: #a9bec1;
+    color: #fff;
+    border-radius: 2px;
+    margin-left: 3px;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+}
+.novpagemanage-content .group-config a:hover {
+    background: #3fa962;
+}
+.novpagemanage-content .group-config a i {
+    font-size: 15px;
+    color: #fff;
+}
+.novpagemanage-list .novpagemanage-item {
+    margin: 35px 0 30px;
+}
+
+.novpagemanage-list .row {
+    margin: 15px 0;
+	border:1px solid 
+}
+
+.novpagemanage-list .novpagemanage-item:hover > .novpagemanage-content > .group-config {
+    display: block;
+}
+.novpagemanage-list .novpagemanage-list { padding-left: 10px; }
+.novpagemanage-list .novpagemanage-list .novpagemanage-item .novpagemanage-content {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 1px solid #dae3e5;
+}
+.novpagemanage-collapsed .novpagemanage-list { display: none; }
+
+.novpagemanage-handle {  
+    background: #fff; /* Old browsers */
+    border: 0;
+    border-radius: 3px 0 0 3px;
+    left: 16px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    white-space: nowrap;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+.novpagemanage-handle:hover {
+    cursor: move;
+}
+.novpagemanage-handle i {
+    font-size: 20px;
+    color: #92a8ae;
+}
+
+.novpagemanage-item-row .novpagemanage-handle {
+    top: 50%;
+    margin-top: -21px;
+}
+.novpagemanage-item-row  .form-wrapper {
+    padding-right: 165px;
+}
+.novpagemanage-item-row .btn-group {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    margin-top: -17px;
+}
+.novpagemanage-item-row > .novpagemanage-content::after{
+    content: "";
+    display: block !important;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    right: 155px;
+    background: #e2ecef;
+    top: 0;
+}
+.novpagemanage-item-row .novpagemanage-list {
+    overflow: inherit;
+}
+.novpagemanage-item-row  .novpagemanage-item {
+    margin: 15px 0 15px;
+}
+.novpagemanage-item-row  .novpagemanage-item .novpagemanage-handle{
+    background: #dae3e5;
+    width: 43px;
+}
+
+.novpagemanage-item > button {margin-left: 30px;display: block; position: relative; cursor: pointer; float: left; width: 25px; height: 20px; margin: 5px 0; padding: 0; text-indent: -9999px; white-space: nowrap; overflow: hinovpagemanageen; border: 0; background: transparent; font-size: 12px; line-height: 1; text-align: center; font-weight: bold; }
+.novpagemanage-item > button:before { content: '+'; display: block; position: absolute; width: 100%; text-align: center; text-indent: 0; }
+.novpagemanage-item > button[data-action="collapse"]:before { content: '-'; }
+
+.novpagemanage-placeholder,
+.novpagemanage-empty { margin: 5px 0; padding: 0; min-height: 30px; background: #f2fbff; border: 1px dashed #b6bcbf; box-sizing: border-box; -moz-box-sizing: border-box; }
+.novpagemanage-empty { border: 1px dashed #bbb; min-height: 100px; background-color: #e5e5e5;
+    background-image: -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                      -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:    -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                         -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-image:         linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), 
+                              linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+}
+
+.novpagemanage-dragel { position: absolute; pointer-events: none; z-index: 9999; }
+.novpagemanage-dragel > .novpagemanage-item .novpagemanage-handle { margin-top: 0; }
+.novpagemanage-dragel .novpagemanage-handle {
+    -webkit-box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+            box-shadow: 2px 4px 6px 0 rgba(0,0,0,.1);
+}
+
+.nestable-lists { display: block; clear: both; padding: 30px 0; width: 100%; border: 0; border-top: 2px solid #novpagemanaged; border-bottom: 2px solid #novpagemanaged; }
+
+#nestable-menu { padding: 0; margin: 20px 0; }
+
+#nestable-output,
+
+
+@media only screen and (min-width: 700px) { 
+
+    .novpagemanage { float: left; width: 48%; }
+    .novpagemanage + .novpagemanage { margin-left: 2%; }
+
+}
+
+.novpagemanage-hover > .novpagemanage-handle { background: #2ea8e5 !important; }
+
+.bootstrap a.disabled i {color: red;}
+.nov-config {
+	position: absolute;
+	left: 100%;
+	top:0;
+    margin-left: 5px;
+}
+
+.novpagemanage-item .ui-resizable-handle {
+	cursor:col-resize;
+	position: absolute;
+	right: 11px;
+    bottom: -2px;
+}
+

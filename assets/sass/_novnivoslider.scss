@@ -1,0 +1,672 @@
+.nov_preload {
+  height: 30%;
+  width:100%;
+  background:url(../img/bx_loader.gif) no-repeat scroll 49% 49% #E9E9E9;
+  display:block;
+  z-index:9999;
+  top:0px;
+  left:0px;
+  @include media-breakpoint-up(lg) {
+    height:723px;
+  }
+}
+#nov-slider {
+  position: relative;
+  max-height: 700px;
+  overflow: hidden;
+  z-index: 1;
+  .nivo-caption {
+    position: absolute;
+    left: 0%;
+    right: 0px;
+    top: 0%;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  .nivo-main-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+.nova-slider-ct {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.active-slider {
+  top: 0px;
+  width: 100%;
+  overflow: inherit;
+}
+
+/* The Nivo Slider styles */
+
+.nivoSlider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: none;
+  }
+  a.nivo-imageLink {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    z-index: 6;
+    display: none;
+    background: white;
+    @include opacity(0);
+  }
+}
+
+.nivo-main-image {
+  display: block !important;
+  position: relative !important;
+  width: 100% !important;
+}
+
+/* The slices and boxes in the Slider */
+
+.nivo-slice {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  top: 0;
+}
+
+.nivo-box {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  overflow: hidden;
+  img {
+    display: block;
+  }
+}
+
+.nivo-caption {
+  display: none !important;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  z-index: 8;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;  
+  box-sizing: border-box;
+  p {
+    padding: 5px;
+    margin: 0;
+  }
+  a {
+    display: inline !important;
+  }
+}
+
+.nivo-html-caption {
+  display: none;
+}
+
+.nivo-directionNav a {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  z-index: 9;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-image: url(images/arrow-control.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-indent: -9999px;
+  z-index: 102;
+  @include transition(opacity 0.5s ease-in-out 0s);
+  &.nivo-prevNav {
+    left: 10px;
+  }
+  &.nivo-nextNav {
+    right: 10px;
+    background-position: right 0;
+    &:hover{
+      background-position: right bottom;
+    }
+  }
+  &:hover {
+    background-position: 0 bottom;
+    @include opacity(1);
+  }
+}
+
+.nivo-controlNav {
+  bottom: 20px;
+  display: inline-block;
+  position: absolute;
+  z-index: 99;
+  @include rtl-left(50%);
+  margin: auto;
+  text-align: center;
+  @include translate(-50%, 0);
+  a {
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    padding: 0;
+    position: relative;
+    text-indent: -9999px;
+    border-radius: 50%;
+    &:before {
+      @include transition(all 0.6s ease-in 0.4s);
+      content: "";
+      position: absolute;
+      height: 12px;
+      width: 12px;
+      border-radius: 50%;
+      background: #fff;
+      left: 50%;
+      top: 50%;
+      @include opacity(0.5);
+      @include translate(-50%, -50%);
+    }
+    &:hover, &.active {
+      &:before {
+        @include opacity(1);
+        height: 16px;
+        width: 16px;
+      }
+    }
+  }
+}
+
+.nov-center {
+  top: -200%;
+  position: absolute;
+}
+
+
+.slider-left, .slider-right, .slider-center {
+  position: absolute;
+  top: 50%;
+  @include translateY(-50%);
+}
+
+
+.slider-left {
+  left: 15px;
+  text-align: left;
+}
+
+
+.slider-center {
+  left: 0;
+  right: 0;
+  margin: auto;
+
+}
+
+.slider-right {
+  left: auto;
+  right: 15px;
+  text-align: right;
+}
+
+.slider-right .nov-description {
+  margin-top: 0px;
+}
+
+
+.nova-slider-ct {
+  color: #fff;
+  text-align: center;
+
+  .nov-title {
+    font-size: 44px;
+    padding: 10px 0;
+    text-align: left;
+    position: relative;
+    display: initial;
+    margin-top: 0;
+    font-family: $font-family-default;
+	  text-transform: uppercase;
+  }
+
+  .nov-description {
+    h4{
+      font-family: 'Lato', sans-serif;
+      font-size: 17px;
+  	  background : transparent;
+  	  font-weight: 300;
+      letter-spacing: 5px;
+    }
+    p{
+      font-size: 20px;
+      font-weight: 300;
+    }
+  }
+
+  .nov-html {
+    .btn {
+		@include border-radius(25px);
+		background: none repeat scroll 0% 0% $theme-color-default;
+		color: $white;
+		font-size : 16px;
+		padding : 10px 40px;
+		&:hover{
+			color: #fff !important;
+			background-color: transparent !important;
+			border-color: #fff !important;
+		}
+    }
+  }
+
+}
+.slider-right {
+    .nov-title{
+      &:before{
+        right: 0 !important;
+        left: inherit;
+      }
+      &:after{
+        right: 0 !important;
+        left: inherit;
+      }
+    }
+}
+
+/* left -> right */
+
+.effect-1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+
+.effect-2 {
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+
+.effect-3 {
+  -webkit-animation-duration: 2.2s;
+  animation-duration: 2.2s;
+  animation-timing-function: custom;
+  -webkit-animation-timing-function: custom;
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft;
+}
+
+/* right -> left */
+
+.effect-4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+
+.effect-5 {
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+
+.effect-6 {
+  -webkit-animation-duration: 2.2s;
+  animation-duration: 2.2s;
+  animation-timing-function: custom;
+  -webkit-animation-timing-function: custom;
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight;
+}
+
+/* top -> bottom */
+
+.effect-7 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+
+.effect-8 {
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+
+.effect-9 {
+  -webkit-animation-duration: 2.2s;
+  animation-duration: 2.2s;
+  animation-timing-function: custom;
+  -webkit-animation-timing-function: custom;
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+
+/* bottom -> top */
+
+.effect-10 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
+
+.effect-11 {
+  -webkit-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-in;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
+
+.effect-12 {
+  -webkit-animation-duration: 2.2s;
+  animation-duration: 2.2s;
+  animation-timing-function: custom;
+  -webkit-animation-timing-function: custom;
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
+}
+
+/* Key */
+@-webkit-keyframes bounceInLeft {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes bounceInLeft {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0);
+  }
+
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@-webkit-keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0);
+  }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0);
+  }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0);
+  }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+@media (max-width: $screen-xs) { // max 480px
+	.nova-slider-ct 
+		{
+		.nov-title {
+			font-size: 25px;
+		}
+		.nov-html {
+			.btn{
+				font-size: 12px;
+				padding:5px 30px;
+			}
+		}
+	}
+	.nivo-controlNav{
+		bottom:0px;
+	}
+}

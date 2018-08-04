@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@import "theme_variables";
+@import "mixins/mixin";
+
+@import "fonts";
+@import "commons";
+@import "layout";
+@import "novblocktags";
+@import "novmegamenu";
+@import "novnivoslider";
+@import "novverticalmenu";
+@import "smartblog";
+
+@import "slick";
+@import "owl-carousel";
+@import "blocks";
+@import "breadcrumb";
+@import "form";
+@import "prestashop";
+@import "product_item";
+@import "prestashop_modules";
+@import "element-pagemanager";
+@import "prestashop_pages";
+@import "categories";
+@import "product_detail";
+@import "contact";
+@import "cart";
+@import "quickview";
+@import "button";
+@import "blog";
+
+@import "multi_layout";
+@import "errors";
+@import "responsive";

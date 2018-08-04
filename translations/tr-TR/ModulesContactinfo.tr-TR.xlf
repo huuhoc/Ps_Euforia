@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo.tpl" source-language="tr-TR" target-language="tr-TR" datatype="plaintext">
+    <body>
+      <trans-unit id="c099cb74f56380cc6fa972bdf61fd0c0">
+        <source>Address: [1]%address1%[/1]</source>
+        <target>Address: [1]%address1%[/1]</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="2d69957db6e38e6c4174189b5e51f775">
+        <source>Address: [1]%address2%[/1]</source>
+        <target>Address: [1]%address2%[/1]</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo.tpl:54</note>
+      </trans-unit>
+      <trans-unit id="a41346e4da379842644de7448cd7424e">
+        <source>Email: [1]%email%[/1]</source>
+        <target>Email: [1]%email%[/1]</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="e909cff595cca9474fac1152f02561be">
+        <source>Hotline: [1]%phone%[/1]</source>
+        <target>Hotline: [1]%phone%[/1]</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo.tpl:88</note>
+      </trans-unit>
+      <trans-unit id="da6eb684bd77243a780629a180c9d19b">
+        <source>Fax: [1]%fax%[/1]</source>
+        <target>Fax: [1]%fax%[/1]</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo.tpl:104</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

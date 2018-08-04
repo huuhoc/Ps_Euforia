@@ -1,0 +1,311 @@
+// Vinovatheme VARIABLE
+$nov-color-primary: 	#e5aa88;
+$nov-border-color: 	#e5e5e5;
+
+@import "variables";
+
+$rtl-left : left;
+$rtl-right : right;
+//------- Variables
+$image-path:                   "images/";
+$font-family-path:             "../font/";
+$image-theme-base-path:        "../img/";
+$image-theme-path:             "../img/icon/";
+$image-base-path:              "../../../img/";
+$image-skin-path:              "../../img/icon/";
+$image-module-path:            "../../../img/icon/";
+$module-path:                  "../../../modules/";
+$screen-sm-max : 980px;
+$screen-xs-max : 767px;
+$screen-xs: 480px;
+$screen-sm: 768px;
+$screen-md: 992px;
+$screen-md-max: 1199px;
+$screen-lg: 1200px;
+//---------Color
+
+$gray-darker: #232323;
+$gray: #7A7A7A;
+$gray-light: #F1F1F1;
+$gray-lighter: #f6f6f6;
+$brand-primary: #2fb5d2;
+$brand-secondary: #f39d72;
+$brand-success: #4cbb6c;
+$brand-warning: #ff9a52;
+$brand-danger: #ff4c4c;
+$label-color: $gray-darker;
+$btn-primary-color: #fff;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: transparent;
+$btn-secondary-color: $gray-darker;
+$btn-secondary-bg: $gray-lighter;
+$btn-secondary-border: transparent;
+$btn-border-radius: 0;
+$input-border-color: rgba(0, 0, 0, 0.25);
+$headings-font-weight: 700;
+$tooltip-bg: $brand-danger;
+$border-radius: 0;
+$extra-small-space: 0.3125rem;
+$small-space: 0.625rem;
+$medium-space: 1.25rem;
+$large-space: 1.875rem;
+$extra-large-space: 2.5rem;
+$warning: #FF9A52;
+$warning-hover: #FDE7BB;
+$alert-warning-bg: rgba(255,154,82,0.3);
+$alert-warning-border: $warning;
+$alert-warning-text: $gray-darker;
+$btn-warning-bg: $warning;
+$btn-warning-color: white;
+$btn-tertiary-color: #6C868E;
+$btn-tertiary-hover: #BBCDD2;
+$base-font-size: 1rem;
+$font-size-lg: 0.9375rem;
+$font-size-sm: 0.875rem;
+$font-size-xs: 0.8125rem;
+$font-size-h1: 1.375rem;
+$font-size-h2: 1.25rem;
+$font-size-h3: 1.125rem;
+$font-size-h4: 1.125rem;
+$font-size-h5: 1rem;
+$font-size-h6: 0.9375rem;
+$display1-size: 3.125rem;
+$display1-weight: 600;
+$display2-size: 2.188rem;
+$display2-weight: 400;
+$display3-size: 1.563rem;
+$display3-weight: 400;
+$display4-size: 1.25rem;
+$display4-weight: 400;
+$text-muted: $gray;
+$black:					#000;
+$brown:					#b39770;
+$browndark: 			#e4dcd2;
+$lightbrown:			#f6eee3;
+$blue:                  #049cdb;
+$bluedark:              #0064cd;
+$yellow:                #ffc40d;
+$orange:                #f89406;
+$pink:                  #c3325f;
+$purple:                #7a43b6;
+$white :			 	#FFFFFF;
+$nocolor:				transparent !default;
+
+
+$theme-color-default:   #e5aa88 !default;
+$theme-color-primary:   #222 !default;
+$theme-color-custom: 	#f59733 !default;
+
+$text-color: 			#666666;
+
+//------- FONTS
+$font-family-default:   'Josefin Sans', sans-serif !default;
+$font-family-primary:   'Oswald', sans-serif !default;
+$font-icon: 			"FontAwesome";
+$font-icon2: 			"Material-Design-Iconic-Font";
+
+//-------- BORDERS
+$base-border-color:		            #e5e5e5 !default;
+$main_border:						#e5e5e5;
+$dark-border-color:					#333;
+$light-border-color:				#fff;
+$homepage-footer-border:            #e5e5e5;
+
+//--------- BACKGROUNDS
+$body-bg:							#fff;
+$base-box-bg:                       #fbfbfb;
+$table-background:                  $base-box-bg;
+$dark-background:                   #333;
+$light-background:                  #fff;
+$homepage-footer-bg:                #f2f2f2;
+
+//--------- COLORS
+$base-body-color:                   $text-color;
+$base-text-color:                   $text-color;
+$base-title-color:					#202020;
+$light-text-color:                  #fff;
+$link-color:						#585858;
+$link-hover-color:                  $link-hover-color;
+$description-color:					$text-color;
+	
+//--------- Breadcrumb ---------
+	$breadcrumb-text-color:       $text-color;
+	$breadcrumb-font-size:        $font-size-base - 1;
+	$breadcrumb-link-color:       $theme-color-default;
+	$breadcrumb-bg:               transparent;
+	$breadcrumb-link-hover-color:  $breadcrumb-text-color;
+
+//--------- Base Heading
+	$base-heading-color:			#202020;
+	$base-heading-fontsize:			$font-size-base * 1.2;
+	$base-heading-bg:			    transparent;
+	$base-headding-padding:         0 0 15px;
+	$base-headding-font:         	$font-family-default;
+	$base-header-border:            $base-border-color;
+
+//--------- Indents
+$base-box-padding:                  14px 18px 13px;
+$base-box-indent:                  	0 0 30px 0;
+
+//---------- Product Elements
+$product-name-color:                #202020;
+$product-name-hover-color:          $theme-color-default;
+$price-color:						#cb3737;
+$product-price-color:				$theme-color-default;
+$product-new-price-color:		    $theme-color-default;
+$product-old-price-color:			$base-text-color;
+$product-reduced-price:				#f00;
+$product-info-margin: 				15px;
+
+//---------- Buttons
+$button-text-color:					$light-text-color;
+
+		//------ Buttons +/- ---
+		$button-pm-color:			#c0c0c0;
+		$button-pm-hover-color:		$base-text-color;
+
+		//------ Button Small --
+		$button-small-bg:			#6f6f6f;
+		$button-small-hover-bg:		#575757;
+
+		//-------Button exclusive-medium
+		$button-em-color:			$base-text-color;
+
+//---------- Product Listing
+$base-listing-border-color:					$base-border-color;
+$base-listing-grid-padding:					$base-box-padding;
+
+		//-------------- Grid/List vars
+		$GL-text-color:								$base-text-color;
+		$GL-title-color:							$base-text-color;
+		$GL-icon-color:								$base-text-color;
+		$GL-icon-color-hover:						$base-text-color;
+
+		//-------------- Pagination vars
+		$pagination-prevnext-color:					#777676;
+		$pagination-bgcolor:	               		$base-box-bg;
+		$pagination-hover-bg:						#f6f6f6;
+
+//---------- Product Info
+$top-line-color:									#C4C4C4;
+$product-image-border:								$nocolor;
+$scroll-button-color:								#c0c0c0;
+$list-info-bg:										#f6f6f6;
+$scroll-button-hover-color:							$base-text-color;
+$tr-even-bg:										#fdfdfd;
+
+
+//------------- BLOCK --------------
+	$block-module-margin:             0 0 15px;
+	$block-module-heading-border:     none;
+	$block-module-heading-bg:         $theme-color-default;
+	$block-module-heading-padding:    22px 0;
+	$block-module-heading-span-padding:    8px 38px;
+	$block-module-heading-margin:     0;
+	$block-module-heading-font:       $font-family-default;
+	$block-module-heading-color:      #272727;
+	$block-module-heading-fontsize:   36px;
+	$block-module-border-color:       $base-border-color;
+	$block-module-content-bg:         #fff;
+	$block-module-content-padding:    15px;
+
+//------------- BOX ---------------------
+	$box-bg:                    #fff !default;
+	$box-inner-border:          #ddd !default;
+	$box-border-radius:         3px !default;
+	$box-footer-bg:             #f5f5f5 !default;
+
+	$box-default-text:          $gray-dark !default;
+	$box-default-border:        #ddd !default;
+	$box-default-heading-bg:    #f5f5f5 !default;
+ /*
+  * LAYOUTS VAIRABLES
+  */
+  //banner
+	$banner-bg: $black;
+    $baner-color: $white;
+    $banner-font-size: $font-size-base;
+//  Topbar
+	$topbar-bg				: #f9f9f9;
+	$topbar-color			: #666666;
+	$topbar-border-color	: transparent;
+	$topbar-font-size  		: 13px;
+	$topbar-font-family     : $font-family-default;
+	$topbar-link-color      : #666666;
+	$topbar-link-hover-color: $link-hover-color;
+
+//  Header
+    $header-bg:                #fff;
+	$header-color:             #909090;
+    $header-font-size:         1.4rem;
+    $header-link-color:        #909090;
+    $header-link-hover-color:  $link-hover-color;
+
+//  Megamenu
+	$mainmenu-bg:                   transparent;
+	$mainmenu-link-color:           #666;
+	$mainmenu-link-hover-color:     $theme-color-default;
+	$mainmenu-font-family:			$font-family-primary;
+	$mainmenu-font-size:			1.2rem;
+
+	$mainsubmenu-bg: 				$white;
+	$mainsubmenu-color:             #666;
+	$mainsubmenu-link-color:        #666;
+	$mainsubmenu-link-hover-color:  #fff;
+	$mainsubmenu-font-family:		$font-family-default;
+	$mainsubmenu-font-size:			1.3rem;
+	$mainsubmenu-title-color:       $theme-color-default;
+	$mainsubmenu-title-font-size:   15px;
+
+//  Vertical Menu
+	$vertical-menu-bg:                   #fff;
+	$vertical-menu-link-color:           $text-color;
+	$vertical-menu-link-hover-color:     $theme-color-primary;
+	$vertical-menu-font-weight:          700;
+	$vertical-menu-font-family:			 $font-family-primary;
+	$vertical-menu-font-size:			 1.8rem;
+
+	$vertical-submenu-bg: 				 #fff;
+	$vertical-submenu-color:             #6a6a6a;
+	$vertical-submenu-link-color:        #6a6a6a;
+	$vertical-submenu-link-hover-color:  $link-hover-color;
+	$vertical-submenu-font-family:		 $font-family-default;
+	$vertical-submenu-font-size:		 14px;
+	$vertical-submenu-title-color:       #202020;
+	$vertical-submenu-title-font-size:   16px;
+
+
+//Slideshow
+	$slideshow-bg:             $nocolor;
+	$slideshow-color:          $white;
+	$slideshow-link-color:     $link-color;
+
+//slidebar
+	$slidebar-bg:                    none;
+	$slidebar-color:                 inherit;
+	$slidebar-link-color:            $link-color;
+	$slidebar-link-hover-color:      $link-hover-color;
+	$siderbar-headding-color:        $base-heading-color;
+
+//Bottom
+	
+
+// footer position
+	$footer-bg:                  #00191c;
+	$footer-text-color:          rgba(225,225,225,0.6);
+	$footer-font-size:			 1.4rem;
+	$footer-link-color:          rgba(225,225,225,0.6);
+	$footer-link-hover-color:    $theme-color-primary;
+	$footer-padding:             0 0;
+	$footer-margin:              0 0;
+
+	$footer-heading-font-size:   1.6rem;
+	$footer-heading-color:       #fff;
+
+// Copyright
+$copyright-bg              : #fff;
+$copyright-text-color      : #666666;
+$copyright-link-color      : $theme-color-primary;
+$copyright-link-color-hover: $link-hover-color;
+$copyright-padding         : 33px 0;
+$copyright-margin          : 0;

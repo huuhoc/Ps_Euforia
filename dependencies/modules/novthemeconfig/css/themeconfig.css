@@ -1,0 +1,245 @@
+body {
+    background: #fff;
+}
+
+.w50 {width: 50px;}
+.w100 {width: 100px;}
+.w150 {width: 150px;}
+.w200 {width: 200px;}
+
+.mr10 {margin-right: 10px;}
+.mr15 {margin-right: 15px;} 
+.mr20 {margin-right: 20px;} 
+.mr25 {margin-right: 25px;}
+.mr30 {margin-right: 30px;}
+.mb10 {margin-bottom: 10px;}
+.mb15 {margin-bottom: 15px;} 
+.mb20 {margin-bottom: 20px;} 
+.mb25 {margin-bottom: 25px;}
+.mb30 {margin-bottom: 30px;}
+.m-auto {margin: 0 auto;}
+.inline {
+    display: inline-block;
+}
+
+
+.themeconfig-heading {
+    height: auto;
+    border-bottom: none;
+    margin: 0;
+    margin-bottom: 35px;
+    padding: 0;
+}
+.themeconfig-heading img {
+    width: 80px;
+    height: auto;
+}
+.themeconfig-heading .module-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 15px;
+    padding-right: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+/* Extension Bootstrap */
+#content.bootstrap{padding: 125px 20px 20px;background : #fff; }
+.bootstrap .alert-success{background-color: #ecf4e8;}
+.bootstrap textarea{height: auto;overflow: inherit !important;}
+
+div.bootstrap .input-mini {width: 60px;}
+div.bootstrap .input-small {width: 90px;}
+div.bootstrap .input-medium {width: 150px;}
+div.bootstrap .input-large {width: 160px;}
+div.bootstrap .input-xlarge {width: 270px;}
+div.bootstrap .input-xxlarge {width: 530px;}
+.bootstrap .form-control, .bootstrap input[type="text"], .bootstrap input[type="search"],
+.bootstrap input[type="password"], .bootstrap textarea, .bootstrap select{color: #777;}
+.icon-AdminSP{height:18px; vertical-align:middle !important;  background:url(../../../logo.png) no-repeat ;display:inline-block; background-size:100% auto;}
+
+.textarea-autosize {
+    height: auto !important;
+}
+
+
+.help-block{position: relative;z-index: 1;	}
+.unit-px+.help-block:after{
+    background: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 0 3px 3px 0;
+    color: #666;
+    content: "px";
+    font-style: normal;
+    height: 27px;
+    left: 208px;
+    position: absolute;
+    text-align: center;
+    top: -32px;
+    width: 30px;
+}
+.important-button {
+    font-weight: bold;
+    background: #fff;
+    padding: 5px 10px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.35);
+}
+
+.warning-text {color: #da3b44;font-size: 13px;}
+
+.success-text {color: #2a803e;font-size: 13px;}
+.bootstrap input[type="text"].text_Selectors{width:400px;height:50px;
+-ms-word-break: break-all;
+     word-break: break-all;
+     word-break: break-word;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;}
+
+/* Layout */
+#configuration_form{ background: white;}
+.heading-section{color: #fff; overflow: hidden;}
+.heading-section .module-title{float: left;width: 250px; background: #383F4C;padding: 12px 20px; font-size: 14px;height: 48px;box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.1) inset;}
+.heading-section .buttons_section{background: #F1F1F1;padding: 10px 15px;overflow: hidden;height: 48px;box-shadow: 0 -3px 0 0 rgba(0, 0, 0, 0.1) inset;}
+.footer-section{ color: #999; overflow: hidden; background: #2E3138;border-top: 1px solid #565D6B;padding:  10px 20px;}
+.footer-section span{float: right;margin-top: 5px;}
+#configuration_form  .form-horizontal .form-group {margin:0;}
+#novthemeconfig_customCSS {overflow: auto !important;}
+
+#nov-config-tabs {
+    padding: 0;
+	margin:0;
+    margin-bottom: 1px;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+#nov-config-tabs .tab {
+    background: #9eb6bc;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 18px 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    border-radius: 3px;
+    float: left;
+    margin-right: 1px;
+}
+
+#nov-config-tabs .tab.active {
+	color:#fff;
+    background: #66b37f;
+}
+#nov-config-tabs .tab:hover {
+	color:#fff;
+    background: #66b37f;
+}
+
+.bootstrap .img-view{
+    float: right; margin-right: 50px;margin-top: -40px;width: 200px;
+   
+}
+.bootstrap .product_rating{height: 32px; background: url(../../images/tp_product_rating.png) no-repeat;}
+.bootstrap .share_buttons{height: 32px; background: url(../../images/tp_share-buttons.png) no-repeat;}
+.bootstrap .product_colorpicker{height: 33px; background: url(../../images/colorpicker.png) no-repeat;}
+.bootstrap .product_availability{height: 50px; background: url(../../images/availability.png) no-repeat;}
+.bootstrap .product_quickview{height: 42px; background: url(../../images/quickview.png) no-repeat;}
+.bootstrap .category_viewtype{height: 34px; background: url(../../images/viewtype.png) no-repeat;}
+
+/*Options Fonts*/
+.fontshow{border: 1px solid #eee; position: absolute;left: 230px;top: -1px;display: inline-block;padding: 3px 10px; font-size: 16px;}
+.selectorshow{color: #959595;  position: absolute;left: 230px;top: 0;display: inline-block;padding: 5px 10px; }
+
+/*Options Layout*/
+.parttern_wrap{width: 50px;height: 50px;display: inline-block; margin-right: 3px;overflow: hidden;position: relative;}
+.parttern_wrap > span{position: absolute;background: rgba(255,255,255,0.8); z-index: 2; padding: 2px 5px;}
+.logo_wrap {width: 100px; height: auto; display: inline-block; margin-right: 25px; overflow: hidden; position: relative;}
+#smartpostperpage {width:19.5%;}
+#configuration_form .panel-heading {border-bottom:solid 1px #ddd !important;}
+#configuration_form  option {padding: 2px 10px;}
+#configuration_form .product_layout, #configuration_form .category_layout {width: 520px !important;}
+
+/*Payment Option*/
+.bootstrap .icon-pay    {width: 26px;height: 16px; margin-left: 10px;margin-bottom: 0; float: right;}
+.bootstrap .am_exp  {background: url(../../images/payment_icons/am_exp.png) no-repeat;}
+.bootstrap .cirrus      {background: url(../../images/payment_icons/cirrus.png) no-repeat;}
+.bootstrap .direct      {background: url(../../images/payment_icons/direct.png) no-repeat;}
+.bootstrap .discover    {background: url(../../images/payment_icons/discover.png) no-repeat;}
+.bootstrap .maestro     {background: url(../../images/payment_icons/maestro.png) no-repeat;}
+.bootstrap .mastercard  {background: url(../../images/payment_icons/mastercard.png) no-repeat;}
+.bootstrap .paypal      {background: url(../../images/payment_icons/paypal.png) no-repeat;}
+.bootstrap .solo        {background: url(../../images/payment_icons/solo.png) no-repeat;}
+.bootstrap .pay_switch      {background: url(../../images/payment_icons/switch.png) no-repeat;}
+.bootstrap .visa        {background: url(../../images/payment_icons/visa.png) no-repeat;}
+.bootstrap .pay_wu          {background: url(../../images/payment_icons/wu.png) no-repeat;}
+
+.bootstrap .btn.save-button {background: #8BC954;color: white;border-color: #72AA3D; box-shadow: none;}
+
+/* Button Custom */
+
+#content.bootstrap .novthemeconfig .panel{border-radius: 0;border: none; box-shadow: none;margin: 0;display:none;padding: 0;}
+#content.bootstrap .novthemeconfig .panel:first-child{display:block;}
+	#content.bootstrap .novthemeconfig .panel.active{display:block;}
+    #content.bootstrap .novthemeconfig .panel .panel-heading{margin: -10px 0 15px; padding: 0;}
+    #content.bootstrap .novthemeconfig .panel .form-wrapper{ border: 1px dashed #999; background: #ecf4f6; border-radius: 3px;}
+    #content.bootstrap .novthemeconfig .panel .form-wrapper > .form-group {
+        margin: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #content.bootstrap .novthemeconfig .panel .form-wrapper .form-group:nth-child(2n) {
+        background: #e1ebee;
+    }
+#nov_customcss,
+#nov_customjS,
+#nov_product_customtab {
+    min-height: 200px!important; width:85%;
+}
+#nov_wellcomemsg_1, #nov_loggedmsg_1, #nov_copyRight_1 {width: 50%;}
+
+#configuration_form .panel-footer {
+    padding: 10px 20px;
+    background-color: #fff;
+    border-top: none;
+}
+.panel-footer .btn {
+    padding: 10px 20px;
+    background: #97b2b8;
+    border-color: #97b2b8;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Open Sans', arial;
+    font-weight: 700;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.panel-footer .btn i {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 15px;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    color: #fff;
+}
+.panel-footer .btn i.process-icon-save {
+    font-size: 14px;
+}
+#configuration_form_submit_btn {
+    background: #5daf78;
+}
+#configuration_form_submit_btn:hover {
+    background: #97b2b8;
+    border-color: #97b2b8;
+}
+.bootstrap .btn.btn-default i {
+    color: #fff;
+}

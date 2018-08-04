@@ -1,0 +1,65 @@
+// BOTTON
+.btn {
+	font-size: 1.2rem;
+	font-family: $font-family-primary;
+	font-weight: 400;
+	text-transform: uppercase;
+	@include box-shadow(0 0 0 2px transparent);
+	cursor: pointer;
+	i {
+		@include rtl-margin-right(7px);
+		font-size: 1.3rem;
+		&.material-icons {
+			font-size: 1.5rem;
+			vertical-align: middle;
+		}
+	}
+	span {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	&:hover, &:focus {
+		background-color: $theme-color-default;
+		color: #fff;
+		border: 1px solid $theme-color-default;
+		outline: 0;
+		@include box-shadow(0 0 0 2px transparent);
+	}
+	&.btn-primary {
+		padding: 9px 25px;
+		@include border-radius(18px);
+		background: $theme-color-primary;
+		border-color: $theme-color-primary;
+		color: #fff;
+		&:hover, &:focus {
+			color: #fff;
+			background: $theme-color-default;
+			border-color: $theme-color-default;
+			outline: 0;
+			@include box-shadow(0 0 0 2px transparent);
+		}
+	}
+	&.btn-default {
+		color: #fff;
+		&:hover, &:focus {
+			background: $theme-color-primary;
+			border-color: $theme-color-primary;
+			outline: 0;
+			@include box-shadow(0 0 0 2px transparent);
+		}
+	}
+	&.btn-secondary {
+		padding: 9px 25px;
+		@include border-radius(18px);
+		background: $theme-color-default;
+		border-color: $theme-color-default;
+		color: #fff;
+		&:hover, &:focus {
+			color: #fff;
+			background: $theme-color-primary;
+			border-color: $theme-color-primary;
+			outline: 0;
+			@include box-shadow(0 0 0 2px transparent);
+		}
+	}
+}

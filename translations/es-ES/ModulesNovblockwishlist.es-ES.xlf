@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="037eeebf494cfb39f94eef0dd5655852">
+        <source>My Wishlists</source>
+        <target>My Wishlists</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_customeraccountlinks/ps_customeraccountlinks.tpl:55</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

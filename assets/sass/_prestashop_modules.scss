@@ -1,0 +1,670 @@
+//CSS Modules Prestashop 1.7
+#_mobile_user_info {
+	position: relative;
+	.icon-myaccount {
+		margin-bottom: 5px;
+	}
+	&.active {
+		.account-list {
+			padding-top: 20px;
+			visibility: visible;
+			@include opacity(1);
+		}
+	}
+}
+
+// Modal Cart Prestashop
+#blockcart-modal {
+	padding: 0 !important;
+	.modal-dialog {
+		max-width: 652px;
+	}
+	.modal-content {
+		@include box-shadow(0px 0px 10px rgba(#000,0.35));
+		@include border-radius(0.5rem);
+		border: none;
+	}
+	.modal-header {
+		.modal-title {
+			font-weight: 600;
+			text-transform: uppercase;
+			font-family: $font-family-primary;
+			color: $theme-color-default;
+			font-size: 1.4rem;
+			i {
+				@include rtl-margin-right(9px);
+				@include square(20px);
+			    line-height: 20px;
+				background: $theme-color-primary;
+				color: #fff;
+				@include border-radius(50%);
+				text-align: center;
+				vertical-align: top;
+			    font-size: 1.2rem;
+			}
+		}
+		button {
+			@include square(18px);
+			background: $theme-color-primary;
+			@include border-radius(50%);
+			position: absolute;
+			@include rtl-right(-10px);
+			top: -10px;
+			i {
+				@include square(18px);
+				line-height: 18px;
+				color: #fff;
+				font-size: 1.2rem;
+			}
+			&:hover {
+				background: $theme-color-default;
+				i {
+					color: #fff;
+				}
+			}
+		}
+	}
+	.modal-body {
+		font-size: 1.4rem;
+		padding: 0 20px;
+		border-top: 1px dotted #828282;
+		.divide-right {
+			@include rtl-border-right(1px dotted #828282);
+			.col-md-5 {
+				@include rtl-padding-right(20px);
+			}
+		}
+		.product-name {
+			font-size: 1.6rem;
+			color: #444;
+		}
+		.product-price {
+			color: #cb3737;
+			font-size: 1.8rem;
+			font-weight: 700;
+		}
+		.cart-products-count {
+			font-size: 1.8rem;
+			color: #444;
+		}
+		> .row > .col-md-6 {
+			padding-top: 22px;
+			padding-bottom: 22px;
+		}
+	}
+	.modal-footer {
+		border-top: 1px dotted #828282;
+		-webkit-justify-content: center;
+		justify-content: center;
+		padding-bottom: 18px;
+		button {
+			padding-left: 37px;
+			padding-right: 37px;
+		}
+		> :not(:last-child) {
+		    @include rtl-margin-right(.5rem);
+		}
+		> :not(:first-child) {
+		    @include rtl-margin-left(.5rem);
+		}
+	}
+}
+
+// Block Seach
+#search_widget {
+	@include rtl-float-right();
+	position: relative;
+	.toggle-search {
+		cursor: pointer;
+		font-size: 18px;
+		height: 37px;
+		line-height: 37px;
+		width: 37px;
+		@include rtl-text-align-right();
+		&:hover {
+			color: $theme-color-primary;
+		}
+		@media (min-width: 1024px) {
+			display: none;
+		}
+	}
+	form {
+		position: relative;
+		@include css3-prefix('box-shadow', 'none');
+		input {
+			width: 222px;
+			padding: 9px 18px;
+			outline: none;
+			background-color: #f2f2f2;
+			border: 1px solid #f2f2f2;
+			font-size: 1.3rem;
+			font-weight: 400;
+			line-height: 2rem;
+			@include border-radius(42px);
+			@include box-shadow(none);
+			@include transition(all 0.4s ease-in-out);
+			&:hover,
+			&:focus {
+				@include css3-prefix('box-shadow', 'none');
+				border-color: rgba($theme-color-primary,0.3);
+				outline: medium none;
+			}
+		}
+		button {
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: 0;
+			width: 40px;
+			padding: 5px 0;
+			color: #c7c7c7;
+			background: $nocolor;
+			border: none;
+			font-size: 20px;
+			line-height: 30px;
+			cursor: pointer;
+			text-align: center;
+			&:focus,
+			&:hover {
+				color: $theme-color-default;
+				background: $nocolor;
+				outline: none;
+				border: none;
+			}
+		}
+		@media (min-width: 768px) and (max-width: 992px) {
+			display: none;
+			.active-search & {
+				display: block;
+			}
+		}
+	}
+	@media (min-width: 768px) and (max-width: 992px) {
+		form {
+			display: none;
+			position: absolute;
+			@include rtl-right(37px);
+			top: 0;
+		}
+		&.active-search {
+			.toggle-search {
+				i:before {
+					content: '\f136';
+				}
+			}
+			form {
+				display: block;
+			}
+		}
+	}
+}
+#_mobile_search {
+	border-radius: 17px;
+	margin-top: 10px;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+	.toggle-search {
+		display: none;
+	}
+	input {
+		height: 34px;
+		@include box-shadow(none);
+		outline: none;
+		border: none;
+		padding: 0 10px;
+		font-weight: 300;
+	}
+	button {
+		background: transparent;
+		position: absolute;
+		border: none;
+		@include rtl-right(5px);
+		top: 5px;
+		font-size: 18px;
+		color: #666;
+	}
+}
+
+//Groups Selector
+.groups-selector {
+	ul {
+		list-style: none;
+		padding: 0;
+		li {
+			display: inline-block;
+			vertical-align: top;
+			@include rtl-float-left();
+			@include square(4rem);
+			line-height: 4rem;
+			text-align: center;
+			@include border-radius(50%);
+			background: #e0e7e8;
+			@include rtl-margin-right(.5rem);
+			font-family: $font-family-primary;
+			font-size: 1.1rem;
+			text-transform: uppercase;
+			a {color: $theme-color-default;display: inline-block; vertical-align: top;}
+			&:hover, &.current {
+				background: $theme-color-primary;
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
+	&.language-selector {
+		a {
+			line-height: 3.5rem;
+		}
+	}
+}
+
+//Form validate
+.form-group {
+	&.form-error {
+		input, textarea {
+			border: 1px solid #f13340;
+			color: #f13340;
+			background: url(../img/icon/form-error.png) 98% 5px no-repeat #fff1f2;
+		}
+	}
+	&.form-ok {
+		input, textarea {
+			border: 1px solid #46a74e;
+			color: #35b33f;
+			background: url(../img/icon/form-ok.png) 98% 5px no-repeat #ddf9e1;
+		}
+	}
+	&.form-error, &.form-ok {
+		.form-control {
+			@include rtl-padding-right(30px);
+		}
+	}
+}
+
+//uniform
+.radio-inline, .checkbox {
+	@include rtl-padding-left(0);
+	.checker {
+		@include rtl-float-left();
+		span {
+			top: 0px;
+		}
+	}
+	div.radio {
+		display: inline-block;
+		span {
+			@include rtl-float-left();
+			top: 0px;
+		}
+	}
+}
+
+// module productcomments
+.cancel {
+  overflow: hidden;
+  @include rtl-float-left();
+  @include rtl-margin(0, 1px, 0, 0);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  a {
+  	//background: url(../../../modules/productcomments/img/delete.gif) no-repeat 0 -16px !important;
+  	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: 0 0;
+  }
+}
+
+.pack_content {
+  margin: 10px 0 10px 0;
+}
+
+.confirmation {
+  margin: 0 0 10px;
+  padding: 10px;
+  border: 1px solid #e6db55;
+  font-size: 13px;
+  background: none repeat scroll 0 0 lightyellow;
+}
+
+.listcomment {
+	list-style-type: none;
+	margin: 0 0 20px 0 !important;
+	li {
+	  padding: 10px 0;
+	  border-bottom: 1px dotted $base-border-color;
+	  color: #666666;
+	}
+
+	.titlecomment {
+	  display: block;
+	  font-weight: bold;
+	  font-size: 12px;
+	  color: $base-text-color;
+	  padding: 5px 0;
+	}
+}
+
+//social
+#social_block {
+	@include rtl-padding-left(20%);
+ 	.block_content{
+ 		position: relative;
+    	top: 5px;
+ 	}
+	ul {
+	    li {
+			display: inline-block;
+			padding-top: 0;
+			@include size(30px,30px);
+			@include border-radius(100%);
+			@include rtl-margin-right(10px);
+			padding: 0px;
+			text-align: center;
+			@include transition(all 0.2s ease-in-out);
+			background-color: #ffffff !important;
+			a {
+				display:block;
+				color: $black;
+				line-height: 30px;
+				@include size(100%,100%);
+				@include border-radius(100%);
+				span {
+				  display: none;
+				}
+				&:before {
+				    display: inline-block;
+				    font-family: $font-icon;
+				    font-weight: normal;
+				    font-size: 12px;
+				}
+				&:hover {
+				  color: $white;
+				  background: $theme-color-default;
+				}
+			}
+			&.facebook {
+				background-color: #305bbd;
+				a {
+				  &:before {
+				    content: "\f09a";
+				  }
+				}
+			}
+			&.twitter {
+				background-color: #49bbdc;
+				a {
+					background-color: $white;
+					&:hover{
+						background-color: $theme-color-default;
+					}
+					&.product-name{
+						display: none;
+					}
+				  &:before {
+				    content: "\f099";
+				  }
+				}
+			}
+			&.rss {
+				background-color: #dc4949;
+				a {
+				  &:before {
+				    content: "\f09e";
+				  }
+				}
+			}
+			&.youtube {
+				background-color: #4d282f;
+				a {
+				  &:before {
+				    content: "\f167";
+				  }
+				}
+			}
+			&.google-plus {
+				background-color: #4d282f;
+				a {
+				  &:before {
+				    content: "\f0d5";
+				  }
+				}
+			}
+			&.pinterest {
+				background-color: #4d282f;
+				a {
+				  &:before {
+				    content: "\f0d2";
+				  }
+				}
+			}
+	    }
+	}
+}
+
+//Reinsurance
+#reinsurance_block {
+  clear: both !important;
+}
+
+//addon RerversoForm
+#account-creation_form fieldset.reversoform {
+  padding: 10px !important;
+}
+
+#account-creation_form fieldset.reversoform .text label {
+  display: block;
+  padding: 0 0 10px 0;
+  width: 100%;
+  @include rtl-text-align-left();
+}
+
+#account-creation_form fieldset.reversoform .infos-sup {
+  padding: 0 !important;
+  font-size: 10px;
+  font-style: italic;
+  @include rtl-text-align-right();
+}
+
+//addon customer privacy
+#account-creation_form fieldset.customerprivacy label,
+fieldset.customerprivacy label {
+  cursor: pointer;
+}
+
+
+//Addons comments products
+#product_comments_block_extra {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	.comments_note {
+		display: inline-block;
+		vertical-align: top;
+		@include rtl-margin-right(22px);
+		span,.star_content  {
+			display: inline-block;
+			vertical-align: top;
+		}
+	}
+	a {
+		text-decoration: none;
+	}
+	.comments_advices {
+		display: inline-block;
+		vertical-align: top;
+		a {
+			@include rtl-margin-right(22px);
+			color: $text-color;
+			&:hover {
+				color: $theme-color-default;
+			}
+			&:last-child {
+				@include rtl-margin-right(0);
+			}
+		}
+		i {
+			@include rtl-margin-right(7px);
+			color: $theme-color-primary;
+			font-size: 1.3rem;
+		}
+	}
+
+}
+
+#id_new_comment_form {
+	.product-image {
+		@include rtl-padding-right(15px);
+	}
+}
+
+.star {
+  position: relative;
+  display: block;
+  @include rtl-float-left();
+  width: 13px;
+  height: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  &:after {
+    content: url('#{$image-theme-base-path}star.png');
+    display: inline-block;
+    position: absolute;
+    top: 1px;
+    @include rtl-left(0);
+  }
+  a {
+    display: block;
+    position: absolute;
+    text-indent: -5000px;
+	width: 100%;
+	height: 100%;
+	background-position: 0 0;
+	&:hover {
+		background-position: 0 -32px;
+	}
+  }
+  &.star_on {
+	  display: block;
+	  &:after {
+	    content: url('#{$image-theme-base-path}star-on.png');
+	  }
+	  a {
+	  	background-position: 0 -16px;
+	  }
+  }
+  .star_hover {
+	  &:after {
+	    content: "\f005";
+	    font-family: $font-icon;
+	    display: inline-block;
+	    color: #edb55d;
+	  }
+	  a {
+	  	background-position: 0 -32px;
+	  }
+  }
+}
+
+// + instagram
+.instagram{
+	.block_content{
+		margin-top: 40px;
+	}
+	#instafeed{
+		margin-left: -15px;
+    	margin-right: -15px;
+		&:after,&:before{
+			display: table;
+			content: "";
+			clear: both;
+		}
+		a{
+			display: block;
+			padding:0 15px;
+			margin-bottom: 30px;
+			float: left;
+			img{
+				width: 100%;
+			}
+			width: 33.33333%;
+			&:hover{
+				img{
+					@include opacity(0.4);
+				}
+			}
+		}
+	}
+}
+
+
+#popup-subscribe {
+	@include rtl-text-align-left();
+	.modal-dialog {
+		max-width: 740px;
+		.modal-header {
+			border: none;
+		}
+		.modal-content {
+			@include border-radius(5px);
+			border: none;
+			.title_block {
+				@include rtl-text-align-left();
+				font-size: 2.6rem;
+				color: $theme-color-default;
+				margin: 94px 0 18px;
+				@include rtl-padding-left(0);
+			}
+		}
+		.modal-body {
+			padding: 30px 38px;
+		}
+	}
+	.subscribe_form {
+		max-width: 365px;
+		color: #666;
+		font-size: 1.4rem;
+		.input-subscribe-wrap {
+			margin-top: 24px;
+			margin-bottom: 125px;
+			input {
+				@include rtl-border-radius-topleft(24px);
+				@include rtl-border-radius-bottomleft(24px);
+				padding-left: 20px;
+				padding-right: 20px;
+				background: #f4f4f4;
+				border-color: #f4f4f4;
+				&:focus,&:hover {
+					border-color: $theme-color-default;
+				}
+				@include placeholder {
+					font-size: 1.1rem;
+					color: #909090;
+
+				}
+			}
+			.input-group-btn {
+				.btn {
+					@include rtl-border-radius-topright(24px);
+					@include rtl-border-radius-bottomright(24px);
+					padding-left: 18px;
+					padding-right: 18px;
+					@include rtl-margin-left(0);
+					text-indent: 0;
+					background-image: none;
+					background-color: $theme-color-default;
+					border-color: $theme-color-default;
+				}
+			}
+		}
+		.checkbox {
+			> span {
+				display: inline-block;
+				vertical-align: middle;
+			}
+		}
+	}
+}

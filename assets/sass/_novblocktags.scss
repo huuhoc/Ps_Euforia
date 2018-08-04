@@ -1,0 +1,22 @@
+div.tags_block {
+	.title_block {
+		margin-bottom: 15px !important;
+	}
+	.block_content {
+		font-size: 1.4rem;
+		overflow: hidden;
+		a {
+			display: inline-block;
+			padding: 5px 10px;
+			color: #666;
+			border: 1px solid $theme-color-primary;
+			@include rtl-float-left();
+			@include rtl-margin-right(9px);
+			margin-top: 10px;
+			&:hover {
+				background: $theme-color-primary;
+				color: #fff;
+			}
+		}
+	}
+}

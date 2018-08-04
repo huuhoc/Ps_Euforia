@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/novpagemanage/views/source/filter.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="ab84f24b91790c36fa9f1859d71081f8">
+        <source>Copyright %copyright% %year% Vinovathemes. Allrights reserved.</source>
+        <target>Copyright %copyright% %year% Vinovathemes. Allrights reserved.</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/novpagemanage/views/source/filter.tpl:247</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_languageselector/ps_languageselector.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="0885f0c211f74834f0109c5abaf4cdc4">
+        <source>Language:</source>
+        <target>Language:</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_languageselector/ps_languageselector.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/smartblog/views/templates/front/postcategory.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="9084ac39ff314efca366f82703fe01f2">
+        <source>Our blog</source>
+        <target>Our blog</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/smartblog/views/templates/front/postcategory.tpl:18</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/smartblog/views/templates/front/posts.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="8cf04a9734132302f96da8e113e80ce5">
+        <source>Home</source>
+        <target>Home</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/smartblog/views/templates/front/posts.tpl:14</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo-rich.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="ce8ae9da5b7cd6c3df2929543a9af92d">
+        <source>Email</source>
+        <target>Email</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo-rich.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="dd7bf230fde8d4836917806aff6a6b27">
+        <source>Address</source>
+        <target>Address</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo-rich.tpl:40</note>
+      </trans-unit>
+      <trans-unit id="9810aa2b9f44401be4bf73188ef2b67d">
+        <source>Fax</source>
+        <target>Fax</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo-rich.tpl:48</note>
+      </trans-unit>
+      <trans-unit id="6955f244e533203e719bd721ca6b8ee9">
+        <source>Hotline</source>
+        <target>Hotline</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/ps_contactinfo-rich.tpl:57</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/nav.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="c6359db4a43cb7267a84b389229fd073">
+        <source>Call us: [1]%phone%[/1]</source>
+        <target>Call us: [1]%phone%[/1]</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/modules/ps_contactinfo/nav.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/contact.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Contact us</target>
+        <note>Context:
+File: /home/vinovath/demo.vinovathemes.com/prestashop_euforia/themes/vinova_euforia/templates/contact.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
