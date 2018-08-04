@@ -1,3 +1,0 @@
-{if isset($novnivoslider)}
-
-{/if}
