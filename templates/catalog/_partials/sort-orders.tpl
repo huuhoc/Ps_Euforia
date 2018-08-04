@@ -21,7 +21,7 @@
  * @copyright 2007-2018 PrestaShop SA
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
- *}
+**}
 <span class="hidden-sm-down sort-by">{l s='Sort by:' d='Shop.Theme.Catalog'}</span>
 {*<div class="{if !empty($listing.rendered_facets)}col-sm-9 col-xs-8{else}col-sm-12 col-xs-12{/if} col-md-9 products-sort-order dropdown">*}
 <div class="products-sort-order dropdown">

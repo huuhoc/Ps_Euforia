@@ -21,7 +21,7 @@
  * @copyright 2007-2018 PrestaShop SA
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
- *}
+**}
 <div id="js-product-list">
   <div class="products product_list grid row" data-default-view="grid">
   	{foreach from=$listing.products item=product}

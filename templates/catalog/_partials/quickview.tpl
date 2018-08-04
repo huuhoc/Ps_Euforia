@@ -21,7 +21,7 @@
  * @copyright 2007-2018 PrestaShop SA
  * @license   http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
  * International Registered Trademark & Property of PrestaShop SA
- *}
+**}
 <div id="quickview-modal-{$product.id}-{$product.id_product_attribute}" class="modal fade quickview" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
    <div class="modal-content">
