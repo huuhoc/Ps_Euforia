@@ -83,11 +83,8 @@
 		     	 	</div>
 		     	 	*}
 
-				 	<div class="product-desc" itemprop="desciption">{if $novconfig.novthemeconfig_home_style == "displayhomenovtwo"}
-				 		{$product.description_short|strip_tags|truncate:270} 
-				 		{else} 
-						{$product.description_short|strip_tags|truncate:90}
-						{/if}
+				 	<div class="product-desc" itemprop="desciption">
+				 		{$product.description_short nofilter} {*This is html content*}
 				 	</div>
 				 	{*{if isset($special_promotion) && $special_promotion}
 				 		<div class="notify special_promotion d-flex align-items-center"><i class="fa fa-gift"></i><span>{l s='Special promotion' d='Shop.Theme.Productinfo'}</span></div>

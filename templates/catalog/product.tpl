@@ -131,7 +131,7 @@
 
           <div class="product-information">
             {block name='product_description_short'}
-              <div id="product-description-short-{$product.id}" itemprop="description">{$product.description_short}</div>
+              <div id="product-description-short-{$product.id}" itemprop="description">{$product.description_short nofilter}</div>{*This is html content*}
             {/block}
 
             {if $product.is_customizable && count($product.customizations.fields)}
@@ -266,7 +266,7 @@
       <div class="tab-content" id="tab-content">
          <div class="tab-pane fade in{if $product.description} active{/if}" id="description">
            {block name='product_description'}
-             <div class="product-description">{$product.description nofilter}</div>
+             <div class="product-description">{$product.description nofilter}</div> {*This is html content*}
            {/block}
          </div>
 
@@ -295,13 +295,13 @@
 
          {foreach from=$product.extraContent item=extra key=extraKey}
          <div class="tab-pane fade in {$extra.attr.class}" id="extra-{$extraKey}" {foreach $extra.attr as $key => $val} {$key}="{$val}"{/foreach}>
-             {$extra.content nofilter}
+             {$extra.content nofilter} {*This is html content*}
          </div>
          {/foreach}
         {hook h='productTabContent' mod='novproductcomments'} 
         {if isset($novconfig.novthemeconfig_product_customtab_show) && $novconfig.novthemeconfig_product_customtab_show == 1}
           <div class="tab-pane fade in" id="tab-custom">
-             {$novconfig.novthemeconfig_product_customtab nofilter}
+             {$novconfig.novthemeconfig_product_customtab nofilter} {*This is html content*}
           </div>
         {/if}
       </div>

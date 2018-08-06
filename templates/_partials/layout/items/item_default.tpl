@@ -164,7 +164,7 @@
               {/if}
      	 	</div>
 
-		 	<div class="product-desc" itemprop="desciption">{$product.description_short|strip_tags:'UTF-8'|truncate:140:'...'}</div>
+		 	<div class="product-desc" itemprop="desciption">{$product.description_short nofilter}</div> {*This is html content*}
 	        
 	      </div>
 

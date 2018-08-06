@@ -53,7 +53,7 @@
 				  	<div class="tab-pane fade {if $smarty.foreach.categories.first }in active{/if}" id="{$tab}category{$k}" role="tabpanel">
 						{$products=$category.products} {$name_tab="{$tab}-category-{$k}"}
 					  	{if !empty($products)}
-					  		<div id="{$name_tab nofilter}" class="product_list grid owl-carousel owl-theme" data-autoplay="true" data-autoplayTimeout="6000" data-loop="true" data-margin="30" data-dots="false" data-nav="true" data-items="{$colspage nofilter}" data-items_mobile="2">
+					  		<div id="{$name_tab}" class="product_list grid owl-carousel owl-theme" data-autoplay="true" data-autoplayTimeout="6000" data-loop="true" data-margin="30" data-dots="false" data-nav="true" data-items="{$colspage}" data-items_mobile="2">
 								{if $list_style == 'item_one'}
 									{include file='_partials/layout/items/item_one.tpl' class_item='' number_row=$number_row}
 								{elseif $list_style == 'item_two'}

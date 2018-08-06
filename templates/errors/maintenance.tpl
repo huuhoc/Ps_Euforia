@@ -34,7 +34,7 @@
         <div class="logo"><img src="{$shop.logo}" alt="logo"></div>
         {/block}
         {block name='hook_maintenance'}
-        {$HOOK_MAINTENANCE nofilter}
+        {$HOOK_MAINTENANCE nofilter} {*This is html content*}
         {/block}
         {block name='page_header'}
           <h1>{block name='page_title'}{l s='We\'ll be back soon.' d='Shop.Theme.Errors'}{/block}</h1>
@@ -45,7 +45,7 @@
     {block name='page_content_container'}
       <section id="content" class="page-content page-maintenance">
         {block name='page_content'}
-          {$maintenance_text nofilter}
+          {$maintenance_text nofilter} {*This is html content*}
         {/block}
       </section>
     {/block}

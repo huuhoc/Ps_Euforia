@@ -40,14 +40,6 @@
           {/block}
         </div>
 
-        {*
-        {block name='product_list_active_filters'}
-          <div id="" class="hidden-sm-down">
-            {$listing.rendered_active_filters nofilter}
-          </div>
-        {/block}
-        *}
-
         <div id="categories-product">
           {block name='product_list'}
             {include file='catalog/_partials/products.tpl' listing=$listing}

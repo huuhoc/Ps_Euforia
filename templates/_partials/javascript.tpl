@@ -28,14 +28,14 @@
 
 {foreach $javascript.inline as $js}
   <script type="text/javascript">
-    {$js.content nofilter}
+    {$js.content nofilter} {*This is html content*}
   </script>
 {/foreach}
 
 {if isset($vars) && $vars|@count}
   <script type="text/javascript">
     {foreach from=$vars key=var_name item=var_value}
-    var {$var_name} = {$var_value|json_encode nofilter};
+    var {$var_name} = {$var_value|json_encode nofilter}; {*This is html content*}
     {/foreach}
   </script>
 {/if}

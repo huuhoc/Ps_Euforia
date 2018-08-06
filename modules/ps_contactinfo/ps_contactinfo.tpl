@@ -27,10 +27,6 @@
   <div class="logo-footer">
     <img src="{$img_dir}/logo-footer.png" alt="logo footer" title="Logo" />
   </div>
-  {*
-  <div class="title_block">{l s='Store information' d='Modules.Contactinfo'}</div>
-  {$contact_infos.address.formatted nofilter}
-  *}
   {if $contact_infos.address.address1}
   <div class="address d-flex">
     <i class="fa fa-home"></i>

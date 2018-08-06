@@ -50,7 +50,7 @@
 	</div>
 	{if isset($novconfig.contact_desc) && $novconfig.contact_desc}
 	<div class="desc-store text-center">
-		{$novconfig.contact_desc nofilter}
+		{$novconfig.contact_desc nofilter} {*This is html content*}
 	</div>
 	{/if}
 	<div class="text-center"><i class="icon-comment"></i></div>
@@ -64,8 +64,12 @@
 {block name='javascript_bottom'}
   {include file="_partials/javascript.tpl" javascript=$javascript.bottom}
   <script>
+  	{if $novconfig.store_latitude}
   	var store_latitude = {$novconfig.store_latitude};
+  	{/if}
+  	{if $novconfig.store_longitude}
   	var store_longitude = {$novconfig.store_longitude};
+  	{/if}
   {literal}
 	function initMap() {
 	var uluru = {lat: store_latitude, lng: store_longitude};

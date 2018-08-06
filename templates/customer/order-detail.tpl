@@ -72,7 +72,7 @@
 
             {if $order.details.gift_message}
               <li>{l s='You have requested gift wrapping for this order.' d='Shop.Theme.Customeraccount'}</li>
-              <li>{l s='Message' d='Shop.Theme.Customeraccount'} {$order.details.gift_message nofilter}</li>
+              <li>{l s='Message' d='Shop.Theme.Customeraccount'} {$order.details.gift_message nofilter}</li> {*This is html content*}
             {/if}
           </ul>
       </div>
@@ -130,7 +130,7 @@
         <div class="col-lg-6 col-md-6 col-sm-6">
           <article id="delivery-address" class="box">
             <h4>{l s='Delivery address %alias%' d='Shop.Theme.Checkout' sprintf=['%alias%' => $order.addresses.delivery.alias]}</h4>
-            <address>{$order.addresses.delivery.formatted nofilter}</address>
+            <address>{$order.addresses.delivery.formatted nofilter}</address> {*This is html content*}
           </article>
         </div>
       {/if}
@@ -138,14 +138,14 @@
       <div class="col-lg-6 col-md-6 col-sm-6">
         <article id="invoice-address" class="box">
           <h4>{l s='Invoice address %alias%' d='Shop.Theme.Checkout' sprintf=['%alias%' => $order.addresses.invoice.alias]}</h4>
-          <address>{$order.addresses.invoice.formatted nofilter}</address>
+          <address>{$order.addresses.invoice.formatted nofilter}</address> {*This is html content*}
         </article>
       </div>
       <div class="clearfix"></div>
     </div>
   {/block}
 
-  {$HOOK_DISPLAYORDERDETAIL nofilter}
+  {$HOOK_DISPLAYORDERDETAIL nofilter} {*This is html content*}
 
   {block name='order_detail'}
     {if $order.details.is_returnable}

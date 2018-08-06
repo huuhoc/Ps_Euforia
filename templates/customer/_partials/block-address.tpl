@@ -26,7 +26,7 @@
   <article id="address-{$address.id}" class="address" data-id-address="{$address.id}">
     <div class="address-body">
       <h4>{$address.alias}</h4>
-      <address>{$address.formatted nofilter}</address>
+      <address>{$address.formatted nofilter}</address> {*This is html content*}
     </div>
 
     {block name='address_block_item_actions'}
