@@ -29,7 +29,7 @@
       <div class="row align-items-center">
         <div class="col-lg-3 col-md-3 mb-xs-15">
           {if isset($novconfig.novthemeconfig_payment_image) && $novconfig.novthemeconfig_payment_image }
-            <img class="img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_payment_image nofilter}" alt="payment" title="Payment" />
+            <img class="img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_payment_image}" alt="payment" title="Payment" />
           {else}
             <img class="img-fluid" src="{$img_dir}/payment.png" alt="payment" title="Payment" />
           {/if}

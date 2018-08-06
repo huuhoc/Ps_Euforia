@@ -26,7 +26,7 @@
 						{if $testimonials.address }
 							<span class="box-dress">{$testimonials.address}</span>
 						{/if}
-						<div class="text">{$testimonials.content nofilter}</div>
+						<div class="text">{$testimonials.content}</div>
 					</div>
 				</div>
 			</div>
@@ -47,7 +47,7 @@
 				{if isset($testimonials.company) && $testimonials.company }
 				<div class="company mt-15">{$testimonials.company}</div>
 				{/if}
-				<div class="text">{$testimonials.content nofilter}</div>
+				<div class="text">{$testimonials.content}</div>
 				{*
 				{if $testimonials.address }
 					<span class="box-dress">{$testimonials.address}</span>
@@ -67,7 +67,7 @@
 					</div>
 					{/if}
 					<div class="media-body">
-						<div class="text">{$testimonials.content nofilter}</div>
+						<div class="text">{$testimonials.content}</div>
 						{if $testimonials.name }
 						<h5 class="mt-0 box-name">{$testimonials.name}</h5>
 						{/if}

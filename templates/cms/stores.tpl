@@ -39,7 +39,7 @@
           </div>
           <div class="col-md-5 col-sm-7 col-xs-12 store-description">
             <h3 class="h3 card-title">{$store.name}</h3>
-            <address>{$store.address.formatted nofilter}</address>
+            <address>{$store.address.formatted}</address>
             {if $store.note || $store.phone || $store.fax || $store.email}
               <a data-toggle="collapse" href="#about-{$store.id}" aria-expanded="false" aria-controls="about-{$store.id}"><strong>{l s='About and Contact' d='Shop.Theme.Cms'}</strong><i class="material-icons">&#xE409;</i></a>
             {/if}

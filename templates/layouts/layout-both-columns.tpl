@@ -206,7 +206,7 @@
               <div class="copyright w-100 text-center mb-10">
                 {if isset($novconfig.novthemeconfig_copyright) && $novconfig.novthemeconfig_copyright }
                 <span>
-                  {$novconfig.novthemeconfig_copyright nofilter}
+                  {$novconfig.novthemeconfig_copyright}
                 </span>
                 {else}
                 <span>
@@ -255,7 +255,7 @@
             <div class="w-100">
             {foreach from=$nov_languages.languages item=language}
               <div class="item-language{if $language.id_lang == $nov_languages.current_language.id_lang} current{/if}">
-                <a href="{url entity='language' id=$language.id_lang}" class="d-flex align-items-center"><img class="img-fluid mr-2" src="{$img_lang nofilter}{$language.id_lang}.jpg" alt="{$language.name}" width="16" height="11" /><span>{$language.name_simple}</span></a>
+                <a href="{url entity='language' id=$language.id_lang}" class="d-flex align-items-center"><img class="img-fluid mr-2" src="{$img_lang}{$language.id_lang}.jpg" alt="{$language.name}" width="16" height="11" /><span>{$language.name_simple}</span></a>
               </div>
             {/foreach}
             </div>
@@ -294,7 +294,7 @@
         <div class="copyright w-100 text-center">
           {if isset($novconfig.novthemeconfig_copyright) && $novconfig.novthemeconfig_copyright }
           <span>
-            {$novconfig.novthemeconfig_copyright nofilter}
+            {$novconfig.novthemeconfig_copyright}
           </span>
           {else}
           <span>

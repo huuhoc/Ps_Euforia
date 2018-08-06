@@ -28,14 +28,14 @@
  <div class="block">
   <div class="block_content">
 		<div class="effect">
-			<a href="{$link_image}"> <img class="img-fluid" src="{$novpagemanage_img nofilter}{$image1 nofilter}" alt="{$title nofilter}" title="{$title nofilter}"></a>
+			<a href="{$link_image}"> <img class="img-fluid" src="{$novpagemanage_img}{$image1}" alt="{$title}" title="{$title}"></a>
 		</div>
   </div>
   {if isset($show_title) && $show_title == 1 && isset($title) && !empty($title)}
    <div class="title_block">
-    {$title nofilter}
+    {$title}
     {if isset($subtitle) && !empty($subtitle)}
-    <span class="sub_title">{$subtitle nofilter}</span>
+    <span class="sub_title">{$subtitle}</span>
     {/if}
    </div>
   {/if}

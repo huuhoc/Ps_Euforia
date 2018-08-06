@@ -38,7 +38,7 @@
     <div class="icon"><i class="material-icons">&#xE55F;</i></div>
     <div class="data d-flex align-self-stretch">
       <div class="mr-2"><b>{l s='Address' d='Shop.Theme'}:</b></div>
-      <div>{$contact_infos.address.address1 nofilter}</div>
+      <div>{$contact_infos.address.address1}</div>
     </div>
   </div>
   {if $contact_infos.fax}

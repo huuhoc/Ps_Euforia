@@ -131,7 +131,7 @@
 
           <div class="product-information">
             {block name='product_description_short'}
-              <div id="product-description-short-{$product.id}" itemprop="description">{$product.description_short nofilter}</div>
+              <div id="product-description-short-{$product.id}" itemprop="description">{$product.description_short}</div>
             {/block}
 
             {if $product.is_customizable && count($product.customizations.fields)}
@@ -211,7 +211,7 @@
                         <label class="control-label">{l s='Tags' d='Shop.Theme.Actions'}:</label>
                         {foreach from=Tag::getProductTags(Tools::getValue('id_product')) key=k item=v}
                           {foreach from=$v item=value}
-                            <span><a href="{$link->getPageLink('search', true, NULL, "tag={$value|urlencode}")}">{$value|escape:html:'UTF-8'}</a></span>
+                            <span><a href="{$link->getPageLink('search', true, NULL, "tag={$value|urlencode}")}">{$value}</a></span>
                           {/foreach}
                         {/foreach}
                     </div>

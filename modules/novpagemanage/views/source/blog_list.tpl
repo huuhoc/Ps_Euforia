@@ -29,9 +29,9 @@
         {if isset($show_title) && $show_title == 1 && isset($title) && !empty($title)}
            <div class="title_block">
                 {if isset($sub_title) && !empty($sub_title)}
-                    <span class="sub_title">{$sub_title nofilter}</span>
+                    <span class="sub_title">{$sub_title}</span>
                 {/if}
-                {$title nofilter}
+                {$title}
            </div>
         {/if}
         {if $list_style == 'type_slider'}

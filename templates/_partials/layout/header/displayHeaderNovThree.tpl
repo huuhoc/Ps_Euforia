@@ -32,7 +32,7 @@
           {if isset($novconfig.novthemeconfig_logo_mobile) && $novconfig.novthemeconfig_logo_mobile}
           <div class="mobile_logo ml-auto mr-auto">
             <a href="{$urls.base_url}">
-              <img class="logo-mobile img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_logo_mobile nofilter}" alt="{$shop.name}">
+              <img class="logo-mobile img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_logo_mobile}" alt="{$shop.name}">
             </a>
           </div>
           {else}

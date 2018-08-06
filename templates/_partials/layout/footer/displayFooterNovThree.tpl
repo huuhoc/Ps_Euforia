@@ -32,7 +32,7 @@
       <div id="nov-copyright" class="text-center">
           {if isset($novconfig.novthemeconfig_copyright) && $novconfig.novthemeconfig_copyright }
             <div class="content-copyright">
-              {$novconfig.novthemeconfig_copyright nofilter}
+              {$novconfig.novthemeconfig_copyright}
             </div>
             {else}
             <div class="content-copyright">

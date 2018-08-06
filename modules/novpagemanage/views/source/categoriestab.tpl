@@ -28,9 +28,9 @@
 		{if isset($show_title) && $show_title == 1 && isset($title) && !empty($title)}
 			<h2 class="title_block">
 				{if isset($image_icon) && !empty($image_icon)}
-					<img src="{$novpagemanage_img nofilter}{$image_icon nofilter}" alt="icon title">
+					<img src="{$novpagemanage_img}{$image_icon}" alt="icon title">
 				{/if}
-				{$title nofilter}
+				{$title}
 				{if isset($sub_title) && !empty($sub_title)}
 					<span class="sub_title">{$sub_title}</span>
 				{/if}

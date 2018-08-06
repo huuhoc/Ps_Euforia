@@ -37,7 +37,7 @@
         <div class="row align-items-center">
             {if isset($novconfig.novthemeconfig_copyright) && $novconfig.novthemeconfig_copyright }
               <div class="content-copyright col-lg-6 text-md-left text-sm-center">
-                {$novconfig.novthemeconfig_copyright nofilter}
+                {$novconfig.novthemeconfig_copyright}
                 {hook h='displayCopyright'}
               </div>
               {else}
@@ -48,7 +48,7 @@
             {/if}
             <div class="payment text-center col-lg-6 text-md-right text-sm-center mt-xs-15">
               {if isset($novconfig.novthemeconfig_payment_image) && $novconfig.novthemeconfig_payment_image }
-              <img class="img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_payment_image nofilter}" alt="payment" title="Payment" />
+              <img class="img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_payment_image}" alt="payment" title="Payment" />
               {else}
                 <img class="img-fluid" src="{$img_dir}/payment.png" alt="payment" title="Payment" />
               {/if}

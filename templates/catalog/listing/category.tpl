@@ -31,7 +31,7 @@
       <h1 class="h1">{$category.name}</h1>
       {/if}
       {if $category.description && isset($novconfig.novthemeconfig_category_desc) && $novconfig.novthemeconfig_category_desc == 1}
-        <div id="category-description" class="text-muted">{$category.description nofilter}</div>
+        <div id="category-description" class="text-muted">{$category.description}</div>
       {/if}
       {if isset($novconfig.novthemeconfig_category_image) && $novconfig.novthemeconfig_category_image == 1}
         <div class="category-cover">

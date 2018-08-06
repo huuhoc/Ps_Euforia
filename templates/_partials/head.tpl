@@ -64,10 +64,10 @@
 {/block}
 
 {block name='hook_header'}
-  {$HOOK_HEADER nofilter}
+  {$HOOK_HEADER}
 {/block}
 {if isset($nov_custom_css) && $nov_custom_css}
 <style type="text/css">
-  {$nov_custom_css nofilter}
+  {$nov_custom_css}
 </style>
 {/if}

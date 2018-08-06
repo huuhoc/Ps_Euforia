@@ -33,6 +33,6 @@
         {l s='OK' d='Shop.Theme.Actions'}
       </button>
   </div>
-  {$listing.rendered_facets nofilter}
+  {$listing.rendered_facets}
 </div>
 {/if}

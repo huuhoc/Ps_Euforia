@@ -69,7 +69,7 @@
 				
 			    <div class="articleContent" itemprop="articleBody">
 				    <div class="sdsarticle-des">
-				       {$content nofilter}
+				       {$content}
 				    </div>
 			    </div>
 			    {if $tags != ''}

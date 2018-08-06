@@ -26,6 +26,6 @@
 
 {block name='product_list_header'}
   <h1 class="page-title">{l s='List of products by brand %s' sprintf=[$manufacturer.name] d='Shop.Theme.Catalog'}</h1>
-  <div id="manufacturer-short_description">{$manufacturer.short_description nofilter}</div>
-  <div id="manufacturer-description">{$manufacturer.description nofilter}</div>
+  <div id="manufacturer-short_description">{$manufacturer.short_description}</div>
+  <div id="manufacturer-description">{$manufacturer.description}</div>
 {/block}

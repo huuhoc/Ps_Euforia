@@ -28,7 +28,7 @@
       <div class="d-flex mr-4 brand-img align-self-start"><a href="{$brand.url}"><img src="{$brand.image}" alt="{$brand.name}"></a></div>
       <div class="media-body brand-products">
         <h3><a href="{$brand.url}">{$brand.name}</a></h3>
-        {$brand.text nofilter}
+        {$brand.text}
       </div>
     </div>
     <div class="brand-products">

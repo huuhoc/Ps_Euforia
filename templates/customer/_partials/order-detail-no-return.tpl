@@ -68,7 +68,7 @@
                               <div class="col-sm-9 col-xs-8 value">
                                 {if $field.type == 'text'}
                                   {if (int)$field.id_module}
-                                    {$field.text nofilter}
+                                    {$field.text}
                                   {else}
                                     {$field.text}
                                   {/if}

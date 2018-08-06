@@ -30,7 +30,7 @@
                 <div class="col-lg-6 col-md-6 text-lg-left text-md-left text-sm-center">
                 	{if isset($novconfig.novthemeconfig_copyright) && $novconfig.novthemeconfig_copyright }
                 		<span>
-                		  {$novconfig.novthemeconfig_copyright nofilter}
+                		  {$novconfig.novthemeconfig_copyright}
                 		</span>
                 		{else}
                 		<span>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6 text-lg-right text-md-right text-sm-center">
                     {if isset($novconfig.novthemeconfig_payment_image) && $novconfig.novthemeconfig_payment_image }
-                        <img class="img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_payment_image nofilter}" alt="payment" title="Payment" />
+                        <img class="img-fluid" src="{$img_dir_themeconfig}{$novconfig.novthemeconfig_payment_image}" alt="payment" title="Payment" />
                     {else}
                         <img class="img-fluid" src="{$img_dir}/payment.png" alt="payment" title="Payment" />
                     {/if}

@@ -28,13 +28,13 @@
         <div class="language-selector js-dropdown{if $novconfig.novthemeconfig_footer_style == 'displayFooterNovTwo'} dropup{else} dropdown{/if}">
             <div class="expand-more" data-toggle="dropdown">
                 <span>{$current_language.name_simple}</span>
-                <img class="img-fluid" src="{$img_lang nofilter}{$current_language.id_lang}.jpg" alt="{$current_language.name_simple}" />
+                <img class="img-fluid" src="{$img_lang}{$current_language.id_lang}.jpg" alt="{$current_language.name_simple}" />
             </div>
             <ul class="dropdown-menu">
                 {foreach from=$languages item=language}
                     <li {if $language.id_lang == $current_language.id_lang} class="current" {/if}>
                         <a href="{url entity='language' id=$language.id_lang}">
-                            <img class="img-fluid" src="{$img_lang nofilter}{$language.id_lang}.jpg" alt="{$language.name_simple}" />
+                            <img class="img-fluid" src="{$img_lang}{$language.id_lang}.jpg" alt="{$language.name_simple}" />
                             <span>{$language.name_simple}</span>
                         </a>
                     </li>

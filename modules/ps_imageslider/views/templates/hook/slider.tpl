@@ -34,7 +34,7 @@
             {if $slide.title || $slide.description}
               <figcaption class="caption">
                 <h2 class="display-1 text-uppercase">{$slide.title}</h2>
-                <div class="caption-description">{$slide.description nofilter}</div>
+                <div class="caption-description">{$slide.description}</div>
               </figcaption>
             {/if}
           </figure>

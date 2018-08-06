@@ -62,9 +62,9 @@
 <div class="block-categories block">
   <ul class="category-top-menu">
     {if $categories.name == 'Home'}
-      <li class="title_block"><a href="{$categories.link nofilter}">{l s='Categories'}</a></li>
+      <li class="title_block"><a href="{$categories.link}">{l s='Categories'}</a></li>
     {else}
-      <li><a href="{$categories.link nofilter}">{$categories.name}</a></li>
+      <li><a href="{$categories.link}">{$categories.name}</a></li>
     {/if}
     <li>{categories nodes=$categories.children}</li>
   </ul>

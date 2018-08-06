@@ -32,6 +32,6 @@
     <a href="{$category.url}">{$category.name}</a>
   </h1>
 
-  <div class="category-description">{$category.description nofilter}</div>
+  <div class="category-description">{$category.description}</div>
 </section>
 {/block}

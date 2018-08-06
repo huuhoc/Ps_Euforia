@@ -26,7 +26,7 @@
 <div class="products_block_filter col-md-{$columns}{if isset($class) && $class} {$class}{/if}">
 		{if isset($show_title) && $show_title == 1 && isset($title) && !empty($title)}
 		<h2 class="title_block">
-			{$title nofilter}
+			{$title}
 			{if isset($sub_title) && !empty($sub_title)}
 				<span class="sub_title">{$sub_title}</span>
 			{/if}
@@ -265,7 +265,7 @@
 					<div class="copyright mt-auto">
 						{if isset($novconfig.novthemeconfig_copyright) && $novconfig.novthemeconfig_copyright }
 	                		<span>
-	                		  {$novconfig.novthemeconfig_copyright nofilter}
+	                		  {$novconfig.novthemeconfig_copyright}
 	                		</span>
 	                		{else}
 	                		<span>
