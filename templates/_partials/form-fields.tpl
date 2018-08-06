@@ -79,7 +79,7 @@
         <span class="custom-checkbox d-inline-flex">
           <input name="{$field.name}" type="checkbox" value="1" {if $field.value}checked="checked"{/if} {if $field.required}required{/if}>
           <span><i class="material-icons checkbox-checked">check</i></span>
-          <label>{$field.label nofilter}</label>
+          <label>{$field.label}</label>
         </span>
 
       {elseif $field.type === 'date'}

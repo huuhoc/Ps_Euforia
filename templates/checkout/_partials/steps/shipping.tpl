@@ -26,7 +26,7 @@
 
 {block name='step_content'}
   <div id="hook-display-before-carrier">
-    {$hookDisplayBeforeCarrier nofilter}
+    {$hookDisplayBeforeCarrier}
   </div>
 
   <div class="delivery-options-list">
@@ -66,7 +66,7 @@
                     </div>
                   </div>
                   <div class="row carrier-extra-content"{if $delivery_option != $carrier_id} style="display:none;"{/if}>
-                    {$carrier.extraContent nofilter}
+                    {$carrier.extraContent}
                   </div>
               {/foreach}
             </div>
@@ -110,7 +110,7 @@
   </div>
 
   <div id="hook-display-after-carrier">
-    {$hookDisplayAfterCarrier nofilter}
+    {$hookDisplayAfterCarrier}
   </div>
 
   <div id="extra_carrier"></div>

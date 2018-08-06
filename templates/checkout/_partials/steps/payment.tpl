@@ -72,7 +72,7 @@
             id="{$option.id}-additional-information"
             class="js-additional-information definition-list additional-information{if $option.id != $selected_payment_option} ps-hidden {/if}"
           >
-            {$option.additionalInformation nofilter}
+            {$option.additionalInformation}
           </div>
         {/if}
 
@@ -81,9 +81,9 @@
           class="js-payment-option-form {if $option.id != $selected_payment_option} ps-hidden {/if}"
         >
           {if $option.form}
-            {$option.form nofilter}
+            {$option.form}
           {else}
-            <form id="payment-form" method="POST" action="{$option.action nofilter}">
+            <form id="payment-form" method="POST" action="{$option.action}">
               {foreach from=$option.inputs item=input}
                 <input type="{$input.type}" name="{$input.name}" value="{$input.value}">
               {/foreach}
@@ -120,7 +120,7 @@
                 >
                 <span><i class="material-icons checkbox-checked">&#xE5CA;</i></span>
                 <label class="js-terms" for="conditions_to_approve[{$condition_name}]">
-                  {$condition nofilter}
+                  {$condition}
                 </label>
               </span>
             </div>

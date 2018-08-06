@@ -53,7 +53,7 @@
             </p>
 
             {block name='hook_order_confirmation'}
-              {$HOOK_ORDER_CONFIRMATION nofilter}
+              {$HOOK_ORDER_CONFIRMATION}
             {/block}
 
           </div>
@@ -104,7 +104,7 @@
       <div class="card-block">
         <div class="row">
           <div class="col-md-12">
-            {$HOOK_PAYMENT_RETURN nofilter}
+            {$HOOK_PAYMENT_RETURN}
           </div>
         </div>
       </div>

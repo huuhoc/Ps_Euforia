@@ -24,6 +24,7 @@
 **}
 
 <section class="contact-form">
+  {if $urls.pages.contact}
   <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data"{/if}>
 
     {if $notifications}
@@ -122,4 +123,5 @@
       <input class="btn" type="submit" name="submitMessage" value="{l s='Send message' d='Shop.Theme.Actions'}">
     </footer>
   </form>
+  {/if}
 </section>
